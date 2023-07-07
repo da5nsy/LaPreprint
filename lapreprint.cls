@@ -522,7 +522,7 @@
   \setcounter{table}{0}
   \refstepcounter{appendix}%
   \clearpage%
-  \patchcmd{\ttlf@section}{MediumGrey}{darkColour}{}{}
+  \patchcmd{\ttlf@section}{LightGrey}{darkColour}{}{}
   \noindent{\bfseries\Large\color{MediumGrey}Appendix \arabic{appendix}\par}
   \nolinenumbers%
   \begin{mdframed}[hidealllines=true,backgroundcolor=lightColour!10,leftline=true,linecolor=lightColour,linewidth=1em]
